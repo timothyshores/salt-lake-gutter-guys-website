@@ -38,3 +38,5 @@ answered by Jason. Two that block publishing specific claims:
 | `CLIENT-SITES.md` | Technical architecture, Formspree setup, pricing, roadmap |
 | `MARKET-PRICING.md` | 2026 competitor pricing, contractor economics, our run costs |
 | `LEAD-DELIVERY.md` | Where leads go, the cross-wiring check, SMS build plan |
+| `BOOKING-RESEARCH.md` | Why we're not building booking; Cal.com decision |
+| `ARTIFACTS.md` | Every Brandon-facing page, its URL, and whether he has it |
