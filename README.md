@@ -29,6 +29,10 @@ answered by Jason. Two that block publishing specific claims:
   claim is his legal liability.
 - The business address is unconfirmed - Yelp and other directories disagree.
 
+## Start here
+
+**[NEXT-SESSION.md](NEXT-SESSION.md)** - open decisions and what to do next.
+
 ## Other docs in this repo
 
 | File | What it covers |
