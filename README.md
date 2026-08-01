@@ -36,3 +36,4 @@ answered by Jason. Two that block publishing specific claims:
 | `BRANDON-CALL-SHEET.md` | The questions Brandon asks Jason, in order |
 | `BRANDON-CONTEXT.md` | Brandon's background, how to talk to him about tooling |
 | `CLIENT-SITES.md` | Technical architecture, Formspree setup, pricing, roadmap |
+| `MARKET-PRICING.md` | 2026 competitor pricing, our run costs, hosting decision |
