@@ -8,8 +8,10 @@ is blocked on code - these are business calls.
 - Two sites built, live, forms tested end to end. **$0 revenue.**
 - Salt Lake Gutter Guys (Jason) is the warmer prospect. Grizzly (Josh) is waiting
   on a business partner, a week or two out.
-- Brandon has both site links and the Client Tracker. **The Business Playbook was
-  just sent** (or is about to be): https://claude.ai/code/artifact/276b641f-7c2a-4aea-97f0-d6d1e8e75514
+- Brandon has both site links and the Client Tracker. **Two artifacts still to
+  send him** (see `ARTIFACTS.md`):
+  - Call Card (use on a live call): https://claude.ai/code/artifact/053fc19b-91aa-400b-a6bc-fb30060da508
+  - Business Playbook (lookup between calls): https://claude.ai/code/artifact/276b641f-7c2a-4aea-97f0-d6d1e8e75514
 - Everything researched is committed to both repos. No open research threads.
 
 ## Decision 1: how do we take money? (DECIDED 2026-08-01)
@@ -24,6 +26,11 @@ cannot create accounts), builds the $500 payment link, sends the URL to Brandon.
 
 **Still open:** how Brandon gets paid out of Tim's Stripe, and the tax handling
 that follows. See decision 5.
+
+**Corrected 2026-08-01:** turning a client's site off does NOT defeat a
+chargeback - the bank pulls the money immediately and the card network decides.
+Evidence (live URL, dated "you're live" email, payment-link description) is the
+only defense. Corrected in `PAYMENTS.md` and the Playbook.
 
 ## Decision 2: who pays for the domain, and does hosting stay free?
 

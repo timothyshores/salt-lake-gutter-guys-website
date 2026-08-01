@@ -25,9 +25,24 @@ fresh ask every month. Venmo cannot do recurring billing at all.
 monthly product never ships, Venmo would have been the right call. Accepting that
 risk deliberately, because the monthly is the whole thesis.
 
-**Chargeback note:** a card payment can be reversed for ~120 days. Low risk on a
-delivered website with an email trail, but it is not zero, and Venmo does not
-have it. Keep the "here's your live site" confirmation email as the paper trail.
+## Chargebacks: what is actually true
+
+A card payment can be disputed for ~120 days. **Correcting a wrong assumption we
+had:** turning the client's site off does *not* defeat a chargeback.
+
+- The bank pulls the $500 out of the Stripe balance **immediately**, plus a ~$15
+  dispute fee, before we are asked anything. The balance can go negative.
+- **The card network adjudicates, not us.** Withdrawing the service is a
+  legitimate consequence of non-payment; it is not a defense.
+- **Evidence is what wins.** Submit: the live site URL, the timestamped "you're
+  live" delivery email, and the payment link's product description showing what
+  was purchased. Deadlines to respond are short - missing one is an auto-loss.
+- Practical risk is low on a $500 site that visibly exists and was delivered in
+  days, but it is not zero, and Venmo does not carry it at all.
+
+**Operational rule:** always send the "you're live" email with the URL. That
+email is the delivery record and the primary piece of dispute evidence. If a
+client mentions disputing a charge, respond the same day.
 
 ## Terms
 

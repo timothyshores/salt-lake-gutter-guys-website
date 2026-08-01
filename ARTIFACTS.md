@@ -13,6 +13,7 @@ link when a genuinely new artifact is created.**
 |---|---|---|---|---|
 | 1 | **Client Tracker** | https://claude.ai/code/artifact/70fe4605-e8f6-4f37-b214-e961b617b595 | Brandon | **Yes** - sent 2026-08-01 |
 | 2 | **The Business Playbook** | https://claude.ai/code/artifact/276b641f-7c2a-4aea-97f0-d6d1e8e75514 | Brandon | **NOT SENT** - send this |
+| 3 | **Call Card** | https://claude.ai/code/artifact/053fc19b-91aa-400b-a6bc-fb30060da508 | Brandon | **NOT SENT** - send with the Playbook |
 
 ### 1. Client Tracker
 Per-client status. Salt Lake Gutter Guys and Grizzly Gutters: what's done, what's
@@ -29,6 +30,18 @@ the rules we don't break.
 
 **Created 2026-08-01 by splitting the general content out of the Client
 Tracker.** Brandon has never seen this URL.
+
+### 3. Call Card
+**One screen, for use during a live call.** The offer table, the questions to
+ask, the exact lines to say, how payment works, what he must never promise, and
+four stall-handlers. Built to be screenshotted.
+
+**Why a third artifact does not violate the one-per-purpose rule:** the Playbook
+is a LOOKUP doc (read between calls, ~25 sections). The Card is an IN-CALL doc
+(read during, one screen). Brandon roleplay 2026-08-01 established he scrolls
+past the Playbook rather than reading it top to bottom, and would not open it
+mid-call. Different purpose, different artifact. The Playbook links to the Card
+in its header.
 
 ## Live client sites (not artifacts, but the other links Brandon sends)
 
@@ -58,6 +71,7 @@ to the same path.
 |---|---|
 | Client Tracker | `~/Documents/Code/grizzly-gutters-website/brandon-tracker.html` |
 | Business Playbook | `~/Documents/Code/grizzly-gutters-website/business-playbook.html` |
+| Call Card | `~/Documents/Code/grizzly-gutters-website/call-card.html` |
 
 Both source files are committed to the `grizzly-gutters-website` repo, so they
 survive session end. To edit an artifact: change the file, then republish to the
