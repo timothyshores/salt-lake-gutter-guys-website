@@ -40,3 +40,6 @@ answered by Jason. Two that block publishing specific claims:
 | `LEAD-DELIVERY.md` | Where leads go, the cross-wiring check, SMS build plan |
 | `BOOKING-RESEARCH.md` | Why we're not building booking; Cal.com decision |
 | `ARTIFACTS.md` | Every Brandon-facing page, its URL, and whether he has it |
+| `ETHICS-AND-AGREEMENTS.md` | Lead ownership, Tim/Brandon working agreement, non-payment recourse |
+| `AI-CALLING-LEGAL.md` | Why we don't offer AI voice calling (TCPA) |
+| `AGENCY-PLATFORMS.md` | GoHighLevel vs alternatives; build-vs-buy |

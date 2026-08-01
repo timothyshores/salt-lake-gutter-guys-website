@@ -75,9 +75,39 @@ form submit -> Formspree webhook -> small serverless function -> Twilio -> contr
 - **The function:** Cloudflare Workers or Vercel free tier handles this volume
   at $0.
 
-**Realistic run cost at 3-5 clients: about $30-40/month total**, nearly all of
-it the Formspree Professional plan. Priced at $100-150/month per client, the
-margin is not close.
+**Corrected run cost at 3-5 clients: about $40-57/month**, not the $30-40 first
+estimated. Two line items were missed:
+
+| Line item | Monthly |
+|---|---|
+| Twilio numbers (1 per client, 4 clients) | $4.60 |
+| SMS usage (~150 msgs, incl. carrier fees) | ~$2.45 |
+| A2P 10DLC recurring campaign fee | $3-20 |
+| **Vercel Pro** (see below) | $20.00 |
+| Formspree (Personal tier once pooled volume passes 50) | $10.00 |
+| **Total** | **~$40-57/month** |
+
+Plus a one-time setup spike of roughly $20-65 for A2P brand and campaign
+registration.
+
+**The miss that mattered: Vercel's free Hobby tier is restricted to
+personal, non-commercial projects.** Running client lead alerts on it violates
+their terms. Vercel Pro is $20/month and covers the whole agency, but it alone is
+most of the original estimate. Cloudflare Workers is the alternative worth
+checking - its free tier does not carry the same non-commercial restriction.
+
+**Second miss: A2P 10DLC has a recurring monthly campaign fee**, not just the
+one-time registration previously noted.
+
+Still excellent margin at $100-150/month per client. Just not as free as it first
+looked, and worth knowing before quoting.
+
+**Where it breaks:** SMS volume is never the problem (10x the messages is only
+~$25/month). The step-functions are Formspree tier boundaries, a second A2P
+campaign if marketing and transactional messages need separate registration, and
+per-client phone numbers at $1.15 each. Past ~10 clients this lands at $80-150/mo
+before usage, which is the point where a bundled platform deserves a real
+comparison against DIY.
 
 ## Option 4: auto-text back to the homeowner (highest conversion value)
 
