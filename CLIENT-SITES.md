@@ -9,8 +9,8 @@ Pages URL. Neither client has paid yet.
 
 | Client | Repo | Live URL | Status |
 |---|---|---|---|
-| Grizzly Gutters | `grizzly-gutters-website` | https://timothyshores.github.io/grizzly-gutters-website/ | Demo, Formspree wired |
-| Salt Lake Gutter Guys | `salt-lake-gutter-guys-website` | https://timothyshores.github.io/salt-lake-gutter-guys-website/ | Demo, Formspree pending |
+| Grizzly Gutters | `grizzly-gutters-website` | https://timothyshores.github.io/grizzly-gutters-website/ | Demo live, Formspree wired |
+| Salt Lake Gutter Guys | `salt-lake-gutter-guys-website` | https://timothyshores.github.io/salt-lake-gutter-guys-website/ | Demo live, Formspree wired |
 
 Separate repos on purpose. **If a third gutter client lands, that is the
 trigger to extract a shared template** - not before. Two sites is not enough
