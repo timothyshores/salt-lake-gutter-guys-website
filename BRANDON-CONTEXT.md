@@ -14,6 +14,31 @@ He is genuinely good at the sales motion and interested in entrepreneurship and
 hustling. He is **not technical.** He does not know what Claude Code is, what it
 can do, or that a custom build is even an option.
 
+## How this started
+
+Brandon works part-time doing in-person lead generation for a roofing company,
+so he already knows the home-services trades and how contractors buy. On the
+side he had been watching a lot of online content about starting a digital /
+AI / marketing agency - heavily GoHighLevel-flavored, plus social media
+marketing and lead-gen material.
+
+Tim and Brandon met and got to talking. Tim mentioned he was building a web app
+with Claude Code and was between jobs. Brandon asked what he had built and
+whether he could build websites. Tim said yes. Brandon's proposal was
+straightforward: **if he finds clients who will pay, Tim does the work, and they
+figure out the split later.**
+
+That is the whole origin. No formal agreement, no entity, no defined equity
+split. Both are similar age, both trying to make money outside a normal job,
+both interested in working for themselves. **It is a side hustle for both of
+them right now and that is the appropriate speed** - nobody quits anything until
+it is producing real revenue.
+
+**The unresolved item: the revenue split.** It was explicitly deferred, and it
+is still deferred. It does not need resolving until the first client pays, but
+it should be settled before money actually changes hands rather than after.
+Flag it at that moment - not earlier, and definitely not later.
+
 ## The GoHighLevel problem
 
 Brandon learned this business from YouTube, and specifically from GoHighLevel

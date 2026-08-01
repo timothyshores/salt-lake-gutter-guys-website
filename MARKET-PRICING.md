@@ -69,6 +69,98 @@ price ($0), removes the terms question entirely, and the migration is trivial
 while there are only a few sites. Doing it later with fifteen sites is the
 version that hurts.
 
+## Client-side economics: what a gutter contractor earns and pays
+
+This is the half that determines whether our pricing is defensible. Researched
+2026-08-01.
+
+### What his jobs are worth
+
+| Service | Homeowner pays |
+|---|---|
+| Seamless gutter install | $8-17/linear ft; typical home 150-200 ft = **$1,200-3,400** |
+| Gutter guards | $1,500-4,500 whole house |
+| Gutter cleaning | $150-250 per visit |
+| Copper (premium) | $30-50/linear ft |
+
+**Margins: 20-40%**, high for the trades (roofing/general construction run
+10-15%). On a typical $2,000 install he nets roughly **$400-800**.
+
+**The pricing implication: one job nets him more than our entire $500 site.**
+
+### What he already pays per lead
+
+| Source | Cost per lead | Notes |
+|---|---|---|
+| Angi / HomeAdvisor | $20-70 (gutter-specific) | Shared with 3-8 contractors; ~$300/yr membership + $400+/mo min spend |
+| Thumbtack | $15-55 | Shared; 8-25% close rate |
+| Google Local Services | **$53 average** | Pay-per-lead |
+| Modernize | $200-500 | Pre-qualified, exclusive, high-ticket trades |
+
+**Cost per booked job** (after close rates): Angi ~$667, Thumbtack $150-400.
+
+**Best-sourced number in this doc:** the $53 LSA CPL comes from the SearchLight
+Home Services LSA Benchmark (Feb 2026) - $6.72M in real ad spend across 888
+contractors and 126,650 leads. Same dataset: avg cost per paying customer $233,
+avg ticket $1,826, closed ROAS 7.84x. Everything else here is triangulated
+across agency-published analyses, which have an obvious interest in making
+Angi/Thumbtack look expensive - ranges converge across 6+ sources, so treat as
+directional.
+
+### His overall marketing budget
+
+5-15% of gross revenue, tiered by stage (new business 15-20%, established
+8-10%). For a contractor under $1M revenue: **$2,000-8,000/month**.
+
+**Our $100-150/month is 1-6% of what he already spends.** He is not deciding
+whether to spend on marketing - he already does. We are asking for a slice of an
+existing budget, which is a materially easier sale than creating a new line item.
+
+### Retention: the 90-day cliff
+
+- 43% of small-business marketing churn happens in the **first 90 days**
+- Retainer clients average a **56-month** lifespan vs 24 months for project work
+- Retainer annual churn ~18%; small agencies ~25%
+- **Price is only the 6th most-cited reason clients leave** (37%), behind weak
+  strategic guidance (68%) and poor communication (57%)
+
+**Operational implication:** the first month matters more than the next twelve.
+A visible win in week one - a real lead, acknowledged - is what converts a
+trial into a multi-year client. Silence for 30 days is what kills it. This is
+Brandon's job post-sale, and it is not optional.
+
+Source quality: agency self-report aggregators, not audited. The 90-day cliff
+and price-is-not-first findings recur across multiple independent aggregators.
+
+### What Podium actually is
+
+Relevant because it is the closest competitor to our monthly product and
+Brandon will hear the name.
+
+Podium is all-in-one communications software for local businesses: auto-texts
+customers for Google reviews, provides a text-us chat widget for the website,
+consolidates texts/calls/social DMs into one inbox, and does text-to-pay. Sold
+to dentists, auto shops, home services.
+
+- Pricing is sales-call-only; third-party trackers report Core ~$399/mo, Pro
+  ~$599/mo, Enterprise ~$999+/mo
+- Real all-in for a single-location small business: **$450-600/month**, plus
+  $500 one-time setup, $99/mo AI add-on, $5/mo 10DLC fee
+- G2 4.6/5 but **Trustpilot 1.5/5**, driven by billing disputes and
+  difficult cancellation
+
+**Positioning: we are ~4x cheaper and solve one problem instead of nine.** For a
+two-truck gutter shop, Podium is over-served enterprise software. That is the
+argument, and it is a strong one.
+
+### Gaps - numbers that do not exist yet
+
+- Gutter-specific Google LSA cost per lead (extrapolate $20-40 from the
+  handyman/low-ticket end, but it is genuinely unresolved)
+- Quantified repeat-purchase interval for gutter cleaning or guards
+- Any non-affiliate or government source for base job pricing; every cost guide
+  found is itself a lead-gen funnel
+
 ## Competitor pricing on the monthly upsell
 
 - **Podium** (closest match to lead alerts + SMS + reviews + GBP): list is
