@@ -39,6 +39,30 @@ as a recipient on their form. The form and account stay Tim's.
 Free tier: 50 submissions/month across the whole account. Fine for two demo
 sites. Watch it around client 4 or 5.
 
+Live endpoints:
+
+| Client | Formspree form name | Endpoint |
+|---|---|---|
+| Grizzly Gutters | Grizzly Gutters Lead | `https://formspree.io/f/xbdnwlbz` |
+| Salt Lake Gutter Guys | Salt Lake Gutter Guys | `https://formspree.io/f/xnjekoqw` |
+
+### Projects (Formspree's folder layer)
+
+Formspree groups forms into Projects. **All client forms live in one Dashboard
+Project.** Projects are folders, nothing more - they do not isolate billing,
+submission quota, or delivery. With a handful of forms a folder tree is
+navigation overhead solving a problem that does not exist yet. Forms can be
+moved between projects later, so this is reversible.
+
+Split into per-client projects only when one of these is true: the flat form
+list is genuinely hard to scan (roughly 5+ clients), or a client is being given
+their own dashboard access and should not see other clients' forms.
+
+Do not use a **Command Line Project**. That type manages forms from a
+`formspree.json` config deployed via their CLI, which means a build step. These
+are single-file static HTML sites with no build step - a Dashboard Project is
+the correct type.
+
 ## How a submission finds the right inbox
 
 The endpoint ID hardcoded in each repo's `index.html` **is** the link. A

@@ -787,12 +787,14 @@
     &nbsp;&mdash;&nbsp;
     <a href="#reviews">See what customers say</a>
   </div>
-  <form class="form-card" action="FORMSPREE_ENDPOINT_HERE" method="POST">
-    <!-- PLACEHOLDER: swap FORMSPREE_ENDPOINT_HERE for the real Formspree URL
-         (https://formspree.io/f/xxxxxxx). Currently routed to Tim's demo inbox;
-         swap to Jason's confirmed email the day the client pays. -->
+  <!-- Formspree form: "Salt Lake Gutter Guys" (endpoint xnjekoqw).
+       One form per client site, all under Tim's Formspree account.
+       Currently delivers to Tim's inbox; add Jason's confirmed email as a
+       recipient in the Formspree dashboard the day the client pays.
+       See CLIENT-SITES.md before changing this. -->
+  <form class="form-card" action="https://formspree.io/f/xnjekoqw" method="POST">
     <input type="hidden" name="_subject" value="New lead from Salt Lake Gutter Guys website">
-    <input type="hidden" name="_next" value="#thanks">
+    <input type="hidden" name="_next" value="https://timothyshores.github.io/salt-lake-gutter-guys-website/#thanks">
     <input type="text" name="_gotcha" style="display:none">
     <div class="form-row">
       <label>
