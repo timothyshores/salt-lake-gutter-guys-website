@@ -12,28 +12,18 @@ is blocked on code - these are business calls.
   just sent** (or is about to be): https://claude.ai/code/artifact/276b641f-7c2a-4aea-97f0-d6d1e8e75514
 - Everything researched is committed to both repos. No open research threads.
 
-## Decision 1: how do we take money? (blocking the first sale)
+## Decision 1: how do we take money? (DECIDED 2026-08-01)
 
-**Nothing exists for this.** No Stripe, no invoicing, no payment link. If Jason
-says yes tomorrow, there is no way to collect.
+**Decided: Stripe Payment Link.** Full $500 up front, site goes live only after
+payment clears. Brandon never handles money directly.
 
-**This is the actual blocker on revenue and should be first next session.**
+**Full reasoning, setup steps, and Brandon's payment text: `PAYMENTS.md`.**
 
-Options to weigh:
-- **Stripe Payment Link** - a URL Brandon texts, client pays by card. No code, no
-  site integration, works from a phone. Fees 2.9% + 30 cents, so ~$15 on $500.
-- **Stripe Invoice** - emailed invoice, same fees, feels more formal, creates a
-  paper record.
-- **Square / PayPal** - similar, possibly familiar to a contractor.
-- **Venmo / Zelle / cash** - zero fees, no record, no chargeback protection, and
-  reads unprofessional on a first sale.
+**Still to do:** Tim creates the Stripe account (~10 min, needs SSN/bank - Claude
+cannot create accounts), builds the $500 payment link, sends the URL to Brandon.
 
-**Recommendation to argue next session: Stripe Payment Link.** Fastest path from
-"yes" to money, works over text, and a contractor who pays by card is far more
-likely to keep a monthly subscription on that same card later.
-
-**Also undecided:** whose Stripe account, and how money gets split with Brandon
-(see decision 5).
+**Still open:** how Brandon gets paid out of Tim's Stripe, and the tax handling
+that follows. See decision 5.
 
 ## Decision 2: who pays for the domain, and does hosting stay free?
 
@@ -128,7 +118,8 @@ In order:
 ## Reading order for a fresh session
 
 1. This file
-2. `UNIT-ECONOMICS.md` - costs and margins
-3. `MARKET-PRICING.md` - competitor and contractor economics
-4. `ETHICS-AND-AGREEMENTS.md` - working agreement, lead ownership
-5. `ARTIFACTS.md` - what Brandon has
+2. `PAYMENTS.md` - how we collect, and what Tim still has to set up
+3. `UNIT-ECONOMICS.md` - costs and margins
+4. `MARKET-PRICING.md` - competitor and contractor economics
+5. `ETHICS-AND-AGREEMENTS.md` - working agreement, lead ownership
+6. `ARTIFACTS.md` - what Brandon has
